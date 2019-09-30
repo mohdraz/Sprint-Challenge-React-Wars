@@ -13,8 +13,8 @@ const CharacterCard = props => {
                 <CardText>Gender is {props.gender}</CardText>
                 <CardText>Birth Year is {props.birthYear}</CardText>
                 <CardText>Owns {props.starships} starships</CardText>
+                <CardText>Owns {props.vehicles} Vehicles</CardText>
                 <CardText>Appeared in {props.films} films</CardText>
-                <CardText></CardText>
             </CardBody>
             <CardFooter style={FooterStyle}>Created on: {props.created}</CardFooter>
       </Card>

@@ -31,6 +31,7 @@ export default function StarwarCharacters() {
                 gender={item.gender}
                 birthYear={item.birth_year}
                 starships={item.starships.length}
+                vehicles={item.vehicles.length}
                 films = {item.films.length}
                 created = {item.created}
             
